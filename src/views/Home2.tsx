@@ -73,7 +73,7 @@ export default function Home2() {
                 rel="noopener noreferrer"
                 className="text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition duration-300"
               >
-                <Icon className="w-8 h-8" />
+                <Icon className="hidden md:flex md:w-8 h-8" />
               </a>
             ))}
           </div>
