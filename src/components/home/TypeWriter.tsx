@@ -41,7 +41,7 @@ export default function TypeWriter() {
   }, [charIndex, deleting, wordIndex]);
 
   return (
-    <h2 className="text-purple-500 text-2xl font-semibold min-h-[2.5rem]">
+    <h2 className="text-purple-500 font-mono  text-2xl md:text-3xl font-semibold min-h-[2.5rem]">
       {text}
       <span className="border-r-2 border-purple-500 animate-pulse ml-1" />
     </h2>
