@@ -14,7 +14,7 @@ export default function ThemeIcon({ navColor }: ThemeIconProps) {
         onClick={toggleTheme}
         className={`p-2 rounded-md ${
           navColor ? "bg-white dark:bg-gray-900" : "bg-transparent"
-        } text-gray-900 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600 transition`}
+        } text-indigo-600 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600 transition`}
       >
         {theme === "dark" ? (
           <SunIcon className="w-6 h-6" />
