@@ -32,7 +32,7 @@ export default function NavBar() {
             <div className="flex h-16 justify-between items-center">
               <div className="flex items-center">
                 <Link to="/" className="flex items-center">
-                  <h1 className="text-4xl text-indigo-900 font-serif italic">
+                  <h1 className="text-4xl text-indigo-900 dark:text-white font-serif italic">
                     ER.
                   </h1>
                 </Link>
@@ -42,10 +42,10 @@ export default function NavBar() {
                   <Link
                     key={item.name}
                     to={item.href}
-                    className={`flex items-center gap-2 px-3 py-2 rounded-md text-xl font-medium transition ${
+                    className={`flex items-center gap-2 px-3 py-2 rounded-md text-xl font-medium transition text-indigo-600 ${
                       location.pathname === item.href
-                        ? "border-b-1 dark:text-white"
-                        : "text-gray-800 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700"
+                        ? "border-b-1 text-indigo-900 dark:text-white"
+                        : " dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700"
                     }`}
                   >
                     <svg
@@ -93,7 +93,7 @@ export default function NavBar() {
                   className={`flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium transition ${
                     location.pathname === item.href
                       ? "bg-indigo-600 text-white"
-                      : "text-gray-800 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700"
+                      : "text-indigo-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700"
                   }`}
                 >
                   <svg
