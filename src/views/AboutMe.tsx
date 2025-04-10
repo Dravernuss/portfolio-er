@@ -1,63 +1,38 @@
-const people = [
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-  // More people...
-];
+import AboutCard from "../components/aboutme/AboutCard";
+import TechStack from "../components/aboutme/TechStack";
+import ToolStack from "../components/aboutme/ToolStack";
+import laptopImg from "../assets/about.png";
 
 export default function AboutMe() {
   return (
-    <div className="bg-white dark:bg-gray-800 py-24 sm:py-32 min-h-screen " >
-      <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
-        <div className="max-w-xl">
-          <h2 className="text-3xl font-semibold tracking-tight text-pretty dark:text-gray-100 text-gray-900 sm:text-4xl">
-            Meet our leadership
-          </h2>
-          <p className="mt-6 text-lg/8 text-gray-800 dark:text-gray-300 ">
-            We’re a dynamic group of individuals who are passionate about what
-            we do and dedicated to delivering the best results for our clients.
-          </p>
+    <section className="relative w-full min-h-screen bg-gray-100 dark:bg-gray-800">
+      <div className="max-w-7xl mx-auto px-6 py-12 md:py-20">
+        <div className="flex flex-col md:flex-row items-center justify-center">
+          <div className="md:w-7/12 flex justify-center flex-col items-center mt-10 md:mt-0">
+            <h1 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+              Know Who <span className="text-purple-500">I'M</span>
+            </h1>
+            <AboutCard />
+          </div>
+          <div className="w-3/4 md:w-5/12 pt-10 md:pt-32">
+            <img src={laptopImg} alt="about" className="w-full h-auto" />
+          </div>
         </div>
-        <ul
-          role="list"
-          className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
-        >
-          {people.map((person) => (
-            <li key={person.name}>
-              <div className="flex items-center gap-x-6">
-                <img
-                  alt=""
-                  src={person.imageUrl}
-                  className="size-16 rounded-full"
-                />
-                <div>
-                  <h3 className="text-base/7 font-semibold tracking-tight text-gray-900 dark:text-gray-300">
-                    {person.name}
-                  </h3>
-                  <p className="text-sm/6 font-semibold text-indigo-600">
-                    {person.role}
-                  </p>
-                </div>
-              </div>
-            </li>
-          ))}
-        </ul>
+
+        <div className="mt-20 text-center">
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
+            Professional <span className="text-purple-500">Skillset</span>
+          </h1>
+          <TechStack />
+        </div>
+
+        <div className="mt-20 text-center">
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
+            <span className="text-purple-500">Tools</span> I use
+          </h1>
+          <ToolStack />
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
