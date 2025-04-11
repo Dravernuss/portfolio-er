@@ -26,7 +26,7 @@ export default function Footer() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-black dark:text-gray-300 hover:text-white dark:hover:text-indigo-600 transition transform hover:scale-110"
+                className="text-black dark:text-gray-300 hover:text-indigo-600 transition transform hover:scale-110"
               >
                 <Icon className="w-6 h-6" />
               </a>

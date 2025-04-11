@@ -31,7 +31,6 @@ export default function Home() {
               <TypeWriter />
             </div>
           </div>
-          {/* Imagen */}
           <div className="flex justify-center">
             <img
               src={homeLogo}

@@ -1,6 +1,7 @@
 import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { Navigation, socialLinks } from "../types";
+import { FaLinkedinIn, FaBookReader, FaHeadphones } from "react-icons/fa";
+import { IoLogoGameControllerB, IoIosAirplane, IoMdTrendingUp } from "react-icons/io";
+import { Hobbies, Navigation, Projects, SocialLinks } from "../types";
 
 export const navigation: Navigation[] = [
   {
@@ -29,10 +30,85 @@ export const navigation: Navigation[] = [
     d: "M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z",
   },
 ];
-export const socialLink: socialLinks[] = [
+
+export const socialLink: SocialLinks[] = [
   { href: "https://github.com/dravernuss", icon: AiFillGithub },
   {
     href: "https://www.linkedin.com/in/esteban-rodas-ramos/",
     icon: FaLinkedinIn,
+  },
+];
+
+export const hobbies: Hobbies[] = [
+  {
+    activity: "Playing Games",
+    icon: IoLogoGameControllerB
+  },
+  {
+    activity: "Reading books",
+    icon: FaBookReader
+  },
+  {
+    activity: "Travelling and discovering new places",
+    icon: IoIosAirplane
+  },
+  {
+    activity: "Listening to music",
+    icon: FaHeadphones
+  },
+  {
+    activity: "Learning about new technologies",
+    icon: IoMdTrendingUp
+  }
+]
+
+export const projects: Projects[] = [
+  {
+    imgPath: "./src/assets/about.png",
+    title: "Name",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    ghLink: "https://github.com/",
+    demoLink: "https://google.com/",
+  },
+  {
+    imgPath: "./src/assets/about.png",
+    title: "Name",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    ghLink: "https://github.com/",
+    demoLink: "https://google.com/",
+  },
+  {
+    imgPath: "./src/assets/about.png",
+    title: "Name",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    ghLink: "https://github.com/",
+    demoLink: "https://google.com/",
+  },
+  {
+    imgPath: "./src/assets/about.png",
+    title: "Name",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    ghLink: "https://github.com/",
+    demoLink: "https://google.com/",
+  },
+  {
+    imgPath: "./src/assets/about.png",
+    title: "Name",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    ghLink: "https://github.com/",
+    demoLink: "https://google.com/",
+  },
+  {
+    imgPath: "./src/assets/about.png",
+    title: "Name",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    ghLink: "https://github.com/",
+    demoLink: "https://google.com/",
   },
 ];

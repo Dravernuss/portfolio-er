@@ -12,7 +12,20 @@ export type Navigation = {
   d: string;
 };
 
-export type socialLinks = {
+export type SocialLinks = {
   href: string;
   icon: IconType;
 };
+
+export type Hobbies = {
+  activity: string,
+  icon: IconType
+}
+
+export type Projects = {
+  imgPath: string;
+  title: string;
+  description: string;
+  ghLink: string;
+  demoLink?: string;
+}

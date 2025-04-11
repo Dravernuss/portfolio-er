@@ -1,10 +1,12 @@
-import { ImPointRight } from "react-icons/im";
+import { hobbies } from "../../utils/data";
+import Hobbie from "./Hobbie";
+
 
 export default function AboutCard() {
   return (
     <div className="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-md border border-gray-200 dark:border-gray-700">
       <blockquote className="text-justify text-gray-800 dark:text-gray-200">
-        <p className="mb-4">
+        <p className="mb-4 text-3xs">
           Hi Everyone, I am{" "}
           <span className="text-indigo-600 dark:text-indigo-400 font-semibold">
             Esteban Rodas
@@ -20,29 +22,12 @@ export default function AboutCard() {
           Full Stack Developer.
           <br />
           <br />
-          Beyond coding, I truly enjoy:!
+          Beyond coding, I truly enjoy:
         </p>
         <ul className="list-none space-y-2 mb-4 ml-7">
-          <li className="flex items-center gap-2">
-            <ImPointRight className="text-indigo-600 dark:text-indigo-400" />
-            <span>Playing Games</span>
-          </li>
-          <li className="flex items-center gap-2">
-            <ImPointRight className="text-indigo-600 dark:text-indigo-400" />
-            <span>Reading books</span>
-          </li>
-          <li className="flex items-center gap-2">
-            <ImPointRight className="text-indigo-600 dark:text-indigo-400" />
-            <span>Travelling and discovering new places</span>
-          </li>
-          <li className="flex items-center gap-2">
-            <ImPointRight className="text-indigo-600 dark:text-indigo-400" />
-            <span>Listening to music</span>
-          </li>
-          <li className="flex items-center gap-2">
-            <ImPointRight className="text-indigo-600 dark:text-indigo-400" />
-            <span>Learning about new technologies and trends</span>
-          </li>
+        {hobbies.map((hobbie) => (
+              <Hobbie hobbie={hobbie} />
+            ))}
         </ul>
         <p className="text-indigo-600 dark:text-indigo-400 italic mb-2 text-center">
           "Software is a great combination between artistry and engineering."

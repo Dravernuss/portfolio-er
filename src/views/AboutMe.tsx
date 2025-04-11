@@ -7,7 +7,7 @@ export default function AboutMe() {
   return (
     <section className="relative w-full min-h-screen bg-gray-100 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-6 py-12 md:py-20">
-        <div className="flex flex-col md:flex-row items-center justify-center">
+        <div className="flex flex-col md:flex-row items-center justify-center lg:px-20">
           <div className="md:w-7/12 flex justify-center flex-col items-center mt-10 md:mt-0">
             <h1 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
               Know Who{" "}
