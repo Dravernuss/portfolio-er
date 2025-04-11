@@ -26,7 +26,7 @@ export default function AboutCard() {
         </p>
         <ul className="list-none space-y-2 mb-4 ml-7">
         {hobbies.map((hobbie) => (
-              <Hobbie hobbie={hobbie} />
+              <Hobbie hobbie={hobbie} key={hobbie.activity}/>
             ))}
         </ul>
         <p className="text-indigo-600 dark:text-indigo-400 italic mb-2 text-center">

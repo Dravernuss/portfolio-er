@@ -18,7 +18,7 @@ export default function Projects() {
 
           <div className="flex flex-wrap justify-center gap-7">
             {projects.map((project) => (
-              <ProjectCard project={project} />
+              <ProjectCard project={project} key={project.title}/>
             ))}
           </div>
         </div>
