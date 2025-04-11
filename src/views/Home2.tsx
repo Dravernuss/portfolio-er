@@ -4,11 +4,14 @@ import myImg from "../assets/avatar.svg";
 import { socialLink } from "../utils/data";
 export default function Home2() {
   return (
-    <section id="about" className="w-full py-12 px-10 bg-gray-100 dark:bg-gray-800">
+    <section
+      id="about"
+      className="w-full py-12 px-10 bg-gray-100 dark:bg-gray-800"
+    >
       <div className="container mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           <div className="md:col-span-2 text-center md:text-left">
-            <h1 className="text-4xl text-center font-bold text-gray-900 dark:text-white">
+            <h1 className="text-2xl md:text-4xl text-center font-bold text-gray-900 dark:text-white">
               LET ME{" "}
               <span className="text-indigo-600 dark:text-indigo-400">
                 INTRODUCE{" "}
@@ -17,7 +20,8 @@ export default function Home2() {
             </h1>
             <p className="mt-6 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️<br />
+              something, I think… 🤷‍♂️
+              <br />
               <br /> I am fluent in classics like{" "}
               <span className="text-indigo-600 dark:text-indigo-400 font-semibold italic">
                 PHP, JavaScript, and Go.

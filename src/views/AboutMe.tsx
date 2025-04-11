@@ -10,7 +10,8 @@ export default function AboutMe() {
         <div className="flex flex-col md:flex-row items-center justify-center">
           <div className="md:w-7/12 flex justify-center flex-col items-center mt-10 md:mt-0">
             <h1 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
-              Know Who <span className="text-purple-500">I'M</span>
+              Know Who{" "}
+              <span className="text-indigo-600 dark:text-indigo-400">I'M</span>
             </h1>
             <AboutCard />
           </div>
@@ -21,14 +22,18 @@ export default function AboutMe() {
 
         <div className="mt-20 text-center">
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-            Professional <span className="text-purple-500">Skillset</span>
+            Professional{" "}
+            <span className="text-indigo-600 dark:text-indigo-400">
+              Skillset
+            </span>
           </h1>
           <TechStack />
         </div>
 
-        <div className="mt-20 text-center">
+        <div className=" mt-10 md:mt-15 text-center">
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-            <span className="text-purple-500">Tools</span> I use
+            <span className="text-indigo-600 dark:text-indigo-400">Tools</span>{" "}
+            I use
           </h1>
           <ToolStack />
         </div>

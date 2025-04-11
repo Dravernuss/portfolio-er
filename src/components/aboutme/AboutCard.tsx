@@ -1,43 +1,56 @@
 import { ImPointRight } from "react-icons/im";
 
 export default function AboutCard() {
-    return (
-        <div className="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-md border border-gray-200 dark:border-gray-700">
+  return (
+    <div className="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-md border border-gray-200 dark:border-gray-700">
       <blockquote className="text-justify text-gray-800 dark:text-gray-200">
         <p className="mb-4">
           Hi Everyone, I am{" "}
-          <span className="text-purple-500 font-semibold">Soumyajit Behera</span>{" "}
+          <span className="text-indigo-600 dark:text-indigo-400 font-semibold">
+            Esteban Rodas
+          </span>{" "}
           from{" "}
-          <span className="text-purple-500 font-semibold">Bhubaneswar, India.</span>
+          <span className="text-indigo-600 dark:text-indigo-400 font-semibold">
+            Lima, Perú.
+          </span>
           <br />
-          I am currently employed as a software developer at Juspay.
+          I am currently working as a Software Engineer at Redbus.
           <br />
-          I have completed Integrated MSc (IMSc) in Maths and Computing at BIT Mesra.
+          I hold a Bachelor’s degree in Mechatronics Engineering and I work as a
+          Full Stack Developer.
           <br />
           <br />
-          Apart from coding, some other activities that I love to do!
+          Beyond coding, I truly enjoy:!
         </p>
         <ul className="list-none space-y-2 mb-4 ml-7">
           <li className="flex items-center gap-2">
-            <ImPointRight className="text-purple-500" />
+            <ImPointRight className="text-indigo-600 dark:text-indigo-400" />
             <span>Playing Games</span>
           </li>
           <li className="flex items-center gap-2">
-            <ImPointRight className="text-purple-500" />
-            <span>Writing Tech Blogs</span>
+            <ImPointRight className="text-indigo-600 dark:text-indigo-400" />
+            <span>Reading books</span>
           </li>
           <li className="flex items-center gap-2">
-            <ImPointRight className="text-purple-500" />
-            <span>Travelling</span>
+            <ImPointRight className="text-indigo-600 dark:text-indigo-400" />
+            <span>Travelling and discovering new places</span>
+          </li>
+          <li className="flex items-center gap-2">
+            <ImPointRight className="text-indigo-600 dark:text-indigo-400" />
+            <span>Listening to music</span>
+          </li>
+          <li className="flex items-center gap-2">
+            <ImPointRight className="text-indigo-600 dark:text-indigo-400" />
+            <span>Learning about new technologies and trends</span>
           </li>
         </ul>
-        <p className="text-purple-400 italic mb-2 text-center">
-          "Strive to build things that make a difference!"
+        <p className="text-indigo-600 dark:text-indigo-400 italic mb-2 text-center">
+          "Software is a great combination between artistry and engineering."
         </p>
         <footer className="text-sm text-gray-500 dark:text-gray-400 text-center">
-          — Soumyajit
+          — Bill Gates
         </footer>
       </blockquote>
     </div>
-    )
+  );
 }

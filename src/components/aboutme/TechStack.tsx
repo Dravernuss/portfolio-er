@@ -1,4 +1,3 @@
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -6,41 +5,42 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
+  SiDocker,
   SiPostgresql,
+  SiTypescript,
+  SiPhp,
+  SiMysql,
+  SiTailwindcss,
+  SiSass,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
 const icons = [
-  CgCPlusPlus,
   DiJavascript1,
+  SiPhp,
   TbBrandGolang,
-  DiNodejs,
-  DiReact,
-  SiSolidity,
-  DiMongodb,
-  SiNextdotjs,
-  DiGit,
-  SiFirebase,
-  SiRedis,
-  SiPostgresql,
   DiPython,
-  DiJava,
+  DiReact,
+  SiTypescript,
+  DiNodejs,
+  DiMongodb,
+  SiMysql,
+  SiPostgresql,
+  DiGit,
+  SiDocker,
+  SiTailwindcss,
+  SiSass,
 ];
 
 export default function TechStack() {
   return (
-    <div className="grid grid-cols-3 md:grid-cols-4 gap-6 py-8">
+    <div className="flex flex-wrap justify-center gap-6 py-8 ">
       {icons.map((Icon, index) => (
         <div
           key={index}
-          className="text-7xl text-gray-700 dark:text-white hover:text-indigo-500 transition-transform transform hover:scale-110"
+          className="border-[1.7px] border-[rgba(137,146,230,0.64)] rounded-[5px] p-5 w-1/4 md:w-1/5 text-5xl md:text-8xl flex justify-center text-gray-700 dark:text-white hover:text-indigo-500 transition-transform transform hover:scale-110"
         >
           <Icon />
         </div>
