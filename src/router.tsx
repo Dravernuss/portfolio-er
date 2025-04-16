@@ -3,6 +3,7 @@ import Layout from "./layout/Layout";
 import Home from "./views/Home";
 import AboutMe from "./views/AboutMe";
 import Projects from "./views/Projects";
+import Resume from "./views/Resume";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: "projects",
         element: <Projects />,
+      },
+      {
+        path: "resume",
+        element: <Resume />,
       },
       {
         path: "*",

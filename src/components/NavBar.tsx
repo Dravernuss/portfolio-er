@@ -23,7 +23,7 @@ export default function NavBar() {
     <Disclosure
       as="nav"
       className={`fixed top-0 w-full z-50 transition ${
-        navColor ? "bg-white shadow-md dark:bg-gray-900" : "bg-transparent"
+        navColor ? "bg-white/85 shadow-md dark:bg-gray-900/85 backdrop-blur-sm" : "bg-transparent"
       }`}
     >
       {({ open }: { open: boolean }) => (
