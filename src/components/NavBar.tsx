@@ -23,7 +23,9 @@ export default function NavBar() {
     <Disclosure
       as="nav"
       className={`fixed top-0 w-full z-50 transition ${
-        navColor ? "bg-white shadow-md dark:bg-gray-900" : "bg-transparent"
+        navColor
+          ? "bg-white/85 shadow-md dark:bg-gray-900/85 backdrop-blur-sm"
+          : "bg-transparent"
       }`}
     >
       {({ open }: { open: boolean }) => (
@@ -32,7 +34,7 @@ export default function NavBar() {
             <div className="flex h-16 justify-between items-center">
               <div className="flex items-center">
                 <Link to="/" className="flex items-center">
-                  <h1 className="text-4xl text-indigo-900 dark:text-white font-serif italic">
+                  <h1 className=" text-2xl md:text-4xl text-indigo-900 dark:text-indigo-300 font-serif italic">
                     ER.
                   </h1>
                 </Link>
@@ -42,11 +44,10 @@ export default function NavBar() {
                   <Link
                     key={item.name}
                     to={item.href}
-                    className={`flex items-center gap-2 px-3 py-2 rounded-md text-xl font-medium transition text-indigo-600 ${
-                      location.pathname === item.href
-                        ? "border-b-1 text-indigo-900 dark:text-white"
-                        : " dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700"
-                    }`}
+                    className={`relative flex items-center gap-1 px-5 py-2 font-navbar rounded-md text-4xs font-medium transition text-indigo-600 dark:text-gray-100
+                    before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] 
+                    before:bg-indigo-600 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 
+                    hover:before:scale-x-100`}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +55,7 @@ export default function NavBar() {
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="size-6"
+                      className="size-5"
                     >
                       <path
                         strokeLinecap="round"
@@ -70,7 +71,9 @@ export default function NavBar() {
               <div className="md:hidden flex items-center gap-4">
                 <ThemeIcon navColor={navColor} />
                 <DisclosureButton
-                  className={`p-2 rounded-md bg-gray-200 dark:bg-gray-900 text-gray-900 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600 transition`}
+                  className={`p-2 rounded-md ${
+                    navColor ? "bg-white dark:bg-gray-900" : "bg-transparent"
+                  } text-gray-900 dark:text-white transition`}
                 >
                   {open ? (
                     <XMarkIcon className="w-6 h-6" />
@@ -82,7 +85,7 @@ export default function NavBar() {
             </div>
           </div>
           <DisclosurePanel
-            className={`md:hidden bg-white dark:bg-gray-900 shadow-lg`}
+            className={`md:hidden bg-white/85 shadow-md dark:bg-gray-900/85 backdrop-blur-smshadow-lg`}
           >
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
@@ -90,7 +93,7 @@ export default function NavBar() {
                   key={item.name}
                   as={Link}
                   to={item.href}
-                  className={`flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium transition ${
+                  className={`flex items-center gap-2 px-3 py-2 font-navbar rounded-md text-base font-medium transition ${
                     location.pathname === item.href
                       ? "bg-indigo-600 text-white"
                       : "text-indigo-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700"

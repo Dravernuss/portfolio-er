@@ -1,3 +1,81 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-navbar: "Raleway", "serif";
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-wave {
+  animation: wave 2.1s ease-in-out infinite;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d3d3d3f1;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b3b3b3;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #004696;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #357abd;
+}
+
+.rpv-core__viewer {
+  background-color: transparent !important;
+}
+
+.rpv-core__page-layer {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.rpv-core__inner-page {
+  background-color: transparent !important;
+}
+
+.rpv-core__canvas {
+  background-color: transparent !important;
+}

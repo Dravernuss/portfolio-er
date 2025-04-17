@@ -4,42 +4,40 @@ import myImg from "../assets/avatar.svg";
 import { socialLink } from "../utils/data";
 export default function Home2() {
   return (
-    <section id="about" className="w-full py-12 bg-gray-100 dark:bg-gray-900">
+    <section
+      id="about"
+      className="w-full py-12 px-10 bg-gray-100 dark:bg-gradient-to-r from-[#1a1a2e] via-[#1f1f3d] to-[#000]"
+    >
       <div className="container mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           <div className="md:col-span-2 text-center md:text-left">
-            <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
+            <h1 className="text-2xl md:text-4xl text-center font-bold text-gray-900 dark:text-white">
               LET ME{" "}
               <span className="text-indigo-600 dark:text-indigo-400">
                 INTRODUCE{" "}
               </span>
               MYSELF
             </h1>
+            <br />
             <p className="mt-6 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              I fell in love with programming and I have at least learnt
-              something, I think… <br />
-              <br /> I am fluent in classics like{" "}
-              <span className="text-indigo-600 dark:text-indigo-400 font-semibold">
-                PHP, JavaScript, and Go.
+              I’m a curious and committed FullStack Developer who loves turning
+              ideas into functional, efficient, and elegant code.
+              <br />
+              <br /> I’ve worked with technologies like{" "}
+              <span className="text-indigo-600 dark:text-indigo-400 font-semibold italic">
+                React, Node.js, Go, Phyton and PHP
               </span>
               <br />
-              <br /> My field of interest is building new{" "}
-              <span className="text-indigo-600 dark:text-indigo-400 font-semibold">
-                Web Technologies and Products
+              <br /> My main focus is creating{" "}
+              <span className="text-indigo-600 dark:text-indigo-400 font-semibold italic">
+                impactful, user-friendly products{" "}
               </span>
-              , and exploring{" "}
-              <span className="text-indigo-600 dark:text-indigo-400 font-semibold">
-                Blockchain.
+              with{" "}
+              <span className="text-indigo-600 dark:text-indigo-400 font-semibold italic">
+                clean code and smart architecture
               </span>
               <br />
-              <br /> I also develop with{" "}
-              <span className="text-indigo-600 dark:text-indigo-400 font-semibold">
-                Node.js{" "}
-              </span>
-              and modern frameworks like{" "}
-              <span className="text-indigo-600 dark:text-indigo-400 font-semibold">
-                React.js and Next.js.
-              </span>
+              <br /> I'm always excited to explore new technologies{" "}
             </p>
           </div>
           <div className="flex justify-center">
@@ -47,7 +45,7 @@ export default function Home2() {
               tiltMaxAngleX={10}
               tiltMaxAngleY={10}
               glareEnable
-              glareMaxOpacity={0.5}
+              glareMaxOpacity={0}
             >
               <img src={myImg} alt="avatar" className="w-64 md:w-72 lg:w-80" />
             </Tilt>
