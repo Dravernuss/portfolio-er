@@ -1,6 +1,10 @@
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaBookReader, FaHeadphones } from "react-icons/fa";
-import { IoLogoGameControllerB, IoIosAirplane, IoMdTrendingUp } from "react-icons/io";
+import {
+  IoLogoGameControllerB,
+  IoIosAirplane,
+  IoMdTrendingUp,
+} from "react-icons/io";
 import { Hobbies, Navigation, Projects, SocialLinks } from "../types";
 
 export const navigation: Navigation[] = [
@@ -42,30 +46,38 @@ export const socialLink: SocialLinks[] = [
 export const hobbies: Hobbies[] = [
   {
     activity: "Playing Games",
-    icon: IoLogoGameControllerB
+    icon: IoLogoGameControllerB,
   },
   {
     activity: "Reading books",
-    icon: FaBookReader
+    icon: FaBookReader,
   },
   {
     activity: "Travelling and discovering new places",
-    icon: IoIosAirplane
+    icon: IoIosAirplane,
   },
   {
     activity: "Listening to music",
-    icon: FaHeadphones
+    icon: FaHeadphones,
   },
   {
     activity: "Learning about new technologies",
-    icon: IoMdTrendingUp
-  }
-]
+    icon: IoMdTrendingUp,
+  },
+];
 
 export const projects: Projects[] = [
   {
+    imgPath: "./src/assets/projects/quiosco.png",
+    title: "Quiosco App",
+    description:
+      "Web application that allows users to create and manage product orders with ease. Customers can browse and add products to their order. Technologies used: Next.js, typescript, tailwindcss, Prisma, MySql, and more.",
+    ghLink: "https://github.com/Dravernuss/quiosco_next",
+    demoLink: "https://quiosco-next-plum-three.vercel.app/",
+  },
+  {
     imgPath: "./src/assets/about.png",
-    title: "Name",
+    title: "Uptask",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     ghLink: "https://github.com/",
@@ -73,7 +85,7 @@ export const projects: Projects[] = [
   },
   {
     imgPath: "./src/assets/about.png",
-    title: "Name",
+    title: "Drinks Recipes",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     ghLink: "https://github.com/",
@@ -81,7 +93,7 @@ export const projects: Projects[] = [
   },
   {
     imgPath: "./src/assets/about.png",
-    title: "Name",
+    title: "Pacients Tracker",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     ghLink: "https://github.com/",
@@ -89,7 +101,7 @@ export const projects: Projects[] = [
   },
   {
     imgPath: "./src/assets/about.png",
-    title: "Name",
+    title: "Crypto Tracker",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     ghLink: "https://github.com/",
@@ -97,7 +109,7 @@ export const projects: Projects[] = [
   },
   {
     imgPath: "./src/assets/about.png",
-    title: "Name",
+    title: "Filmaniatics",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     ghLink: "https://github.com/",
@@ -105,7 +117,7 @@ export const projects: Projects[] = [
   },
   {
     imgPath: "./src/assets/about.png",
-    title: "Name",
+    title: "Walking Pet",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     ghLink: "https://github.com/",

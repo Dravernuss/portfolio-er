@@ -14,6 +14,7 @@ import {
   SiMysql,
   SiTailwindcss,
   SiSass,
+  SiErlang,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -32,6 +33,7 @@ const icons = [
   SiDocker,
   SiTailwindcss,
   SiSass,
+  SiErlang,
 ];
 
 export default function TechStack() {

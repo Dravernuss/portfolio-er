@@ -1,7 +1,24 @@
-import { SiGithub, SiPostman, SiSlack, SiLinux, SiJira } from "react-icons/si";
+import {
+  SiGithub,
+  SiPostman,
+  SiSlack,
+  SiLinux,
+  SiDatagrip,
+  SiJenkins,
+} from "react-icons/si";
+import { FaJira } from "react-icons/fa";
 import { DiVisualstudio } from "react-icons/di";
 
-const tools = [DiVisualstudio, SiGithub, SiLinux, SiPostman, SiSlack, SiJira];
+const tools = [
+  DiVisualstudio,
+  SiGithub,
+  SiLinux,
+  SiPostman,
+  SiSlack,
+  FaJira,
+  SiDatagrip,
+  SiJenkins,
+];
 
 export default function ToolStack() {
   return (

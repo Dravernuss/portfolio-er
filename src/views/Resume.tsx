@@ -1,7 +1,7 @@
 import { AiOutlineDownload } from "react-icons/ai";
 import { Viewer, Worker } from "@react-pdf-viewer/core";
 import { pageNavigationPlugin } from "@react-pdf-viewer/page-navigation";
-import pdf from "../assets/example.pdf";
+import pdf from "../assets/CV-EN-Rodas.pdf";
 
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/page-navigation/lib/styles/index.css";

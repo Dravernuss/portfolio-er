@@ -18,32 +18,26 @@ export default function Home2() {
               </span>
               MYSELF
             </h1>
+            <br />
             <p className="mt-6 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I’m a curious and committed FullStack Developer who loves turning
+              ideas into functional, efficient, and elegant code.
               <br />
-              <br /> I am fluent in classics like{" "}
+              <br /> I’ve worked with technologies like{" "}
               <span className="text-indigo-600 dark:text-indigo-400 font-semibold italic">
-                PHP, JavaScript, and Go.
-              </span>
-              <br />
-              <br /> My field of interest is building new{" "}
-              <span className="text-indigo-600 dark:text-indigo-400 font-semibold italic">
-                Web Technologies and Products
-              </span>
-              , and exploring{" "}
-              <span className="text-indigo-600 dark:text-indigo-400 font-semibold italic">
-                Blockchain.
+                React, Node.js, Go, Phyton and PHP
               </span>
               <br />
-              <br /> I also develop with{" "}
+              <br /> My main focus is creating{" "}
               <span className="text-indigo-600 dark:text-indigo-400 font-semibold italic">
-                Node.js{" "}
+                impactful, user-friendly products{" "}
               </span>
-              and modern frameworks like{" "}
+              with{" "}
               <span className="text-indigo-600 dark:text-indigo-400 font-semibold italic">
-                React.js and Next.js.
+                clean code and smart architecture
               </span>
+              <br />
+              <br /> I'm always excited to explore new technologies{" "}
             </p>
           </div>
           <div className="flex justify-center">

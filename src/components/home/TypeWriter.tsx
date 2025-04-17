@@ -3,8 +3,11 @@ import { useEffect, useState } from "react";
 const words = [
   "Software Engineer",
   "FullStack Developer",
-  "MERN Stack Developer",
-  "Open Source Contributor",
+  "MERN Stack Specialist",
+  "API Integrator",
+  "UI/UX Enthusiast",
+  "Problem Solver",
+  "Agile Team Player",
 ];
 
 export default function TypeWriter() {
