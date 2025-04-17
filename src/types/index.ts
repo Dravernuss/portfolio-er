@@ -1,3 +1,4 @@
+import { UseFormRegister } from "react-hook-form";
 import { IconType } from "react-icons";
 
 export type Feature = {
@@ -18,9 +19,9 @@ export type SocialLinks = {
 };
 
 export type Hobbies = {
-  activity: string,
-  icon: IconType
-}
+  activity: string;
+  icon: IconType;
+};
 
 export type Projects = {
   imgPath: string;
@@ -28,4 +29,25 @@ export type Projects = {
   description: string;
   ghLink: string;
   demoLink?: string;
-}
+};
+
+export type InfoItemProps = {
+  icon: string;
+  title: string;
+  text: string;
+};
+
+export type FormData = {
+  name: string;
+  email: string;
+  phone: Number;
+  service: string;
+  message: string;
+};
+
+export type InputFieldProps = {
+  label: string;
+  name: keyof FormData;
+  register: UseFormRegister<FormData>;
+  error: any;
+};

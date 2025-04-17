@@ -3,7 +3,7 @@ import { projects } from "../utils/data";
 
 export default function Projects() {
   return (
-    <section className="relative w-full min-h-screen bg-gray-100 dark:bg-gray-800">
+    <section className="relative w-full min-h-screen bg-gradient-to-r from-white via-gray-100 to-gray-200 dark:bg-gradient-to-r dark:from-[#1a1a2e] dark:via-[#1f1f3d] dark:to-[#000]">
       <div className="max-w-8xl mx-auto py-20 md:py-25">
         <div className="max-w-8xl mx-auto text-center">
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
@@ -18,7 +18,7 @@ export default function Projects() {
 
           <div className="flex flex-wrap justify-center gap-7">
             {projects.map((project) => (
-              <ProjectCard project={project} key={project.title}/>
+              <ProjectCard project={project} key={project.title} />
             ))}
           </div>
         </div>

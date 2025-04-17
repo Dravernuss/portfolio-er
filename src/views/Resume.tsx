@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Viewer, Worker } from "@react-pdf-viewer/core";
 import { pageNavigationPlugin } from "@react-pdf-viewer/page-navigation";
@@ -12,7 +11,7 @@ export default function Resume() {
   const pageNavigationPluginInstance = pageNavigationPlugin();
 
   return (
-    <section className="relative w-full min-h-screen bg-gray-100 dark:bg-gray-800">
+    <section className="relative w-full min-h-screen  bg-gradient-to-r from-white via-gray-100 to-gray-200 dark:bg-gradient-to-r dark:from-[#1a1a2e] dark:via-[#1f1f3d] dark:to-[#000]">
       <div className="flex justify-center pt-15 pb-10 md:pt-25">
         <a
           href={pdf}

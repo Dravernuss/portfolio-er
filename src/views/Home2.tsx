@@ -6,7 +6,7 @@ export default function Home2() {
   return (
     <section
       id="about"
-      className="w-full py-12 px-10 bg-gray-100 dark:bg-gray-800"
+      className="w-full py-12 px-10 bg-gray-100 dark:bg-gradient-to-r from-[#1a1a2e] via-[#1f1f3d] to-[#000]"
     >
       <div className="container mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">

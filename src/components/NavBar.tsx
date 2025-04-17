@@ -23,12 +23,14 @@ export default function NavBar() {
     <Disclosure
       as="nav"
       className={`fixed top-0 w-full z-50 transition ${
-        navColor ? "bg-white/85 shadow-md dark:bg-gray-900/85 backdrop-blur-sm" : "bg-transparent"
+        navColor
+          ? "bg-white/85 shadow-md dark:bg-gray-900/85 backdrop-blur-sm"
+          : "bg-transparent"
       }`}
     >
       {({ open }: { open: boolean }) => (
         <>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 justify-between items-center">
               <div className="flex items-center">
                 <Link to="/" className="flex items-center">
@@ -42,7 +44,7 @@ export default function NavBar() {
                   <Link
                     key={item.name}
                     to={item.href}
-                    className={`relative flex items-center gap-1 px-5 py-2 font-navbar rounded-md text-sm font-medium transition text-indigo-600 dark:text-gray-100
+                    className={`relative flex items-center gap-1 px-5 py-2 font-navbar rounded-md text-4xs font-medium transition text-indigo-600 dark:text-gray-100
                     before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] 
                     before:bg-indigo-600 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 
                     hover:before:scale-x-100`}
@@ -53,7 +55,7 @@ export default function NavBar() {
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="size-6"
+                      className="size-5"
                     >
                       <path
                         strokeLinecap="round"
@@ -70,9 +72,7 @@ export default function NavBar() {
                 <ThemeIcon navColor={navColor} />
                 <DisclosureButton
                   className={`p-2 rounded-md ${
-                    navColor
-                      ? "bg-white dark:bg-gray-900"
-                      : "bg-transparent"
+                    navColor ? "bg-white dark:bg-gray-900" : "bg-transparent"
                   } text-gray-900 dark:text-white transition`}
                 >
                   {open ? (
@@ -85,7 +85,7 @@ export default function NavBar() {
             </div>
           </div>
           <DisclosurePanel
-            className={`md:hidden bg-white dark:bg-gray-900 shadow-lg`}
+            className={`md:hidden bg-white/85 shadow-md dark:bg-gray-900/85 backdrop-blur-smshadow-lg`}
           >
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
