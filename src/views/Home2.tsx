@@ -51,7 +51,7 @@ export default function Home2() {
               tiltMaxAngleX={10}
               tiltMaxAngleY={10}
               glareEnable
-              glareMaxOpacity={0.5}
+              glareMaxOpacity={0}
             >
               <img src={myImg} alt="avatar" className="w-64 md:w-72 lg:w-80" />
             </Tilt>

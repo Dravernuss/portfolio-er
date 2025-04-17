@@ -34,7 +34,7 @@ export default function NavBar() {
             <div className="flex h-16 justify-between items-center">
               <div className="flex items-center">
                 <Link to="/" className="flex items-center">
-                  <h1 className=" text-2xl md:text-4xl text-indigo-900 dark:text-white font-serif italic">
+                  <h1 className=" text-2xl md:text-4xl text-indigo-900 dark:text-indigo-300 font-serif italic">
                     ER.
                   </h1>
                 </Link>

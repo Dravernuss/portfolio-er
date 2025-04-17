@@ -1,4 +1,4 @@
-import homeLogo from "../assets/home-main.svg";
+import homeLogo from "../assets/homelogo.png";
 import TypeWriter from "../components/home/TypeWriter";
 import Home2 from "./Home2";
 
