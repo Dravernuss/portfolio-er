@@ -13,7 +13,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         <img
           src={project.imgPath}
           alt="project"
-          className="w-full p-8 object-cover object-center"
+          className="w-full h-80 p-8 object-cover object-center"
         />
         <div className="p-5 text-gray-900 dark:text-white">
           <h2 className="text-xl font-semibold mb-2 text-indigo-600 dark:text-indigo-400">
