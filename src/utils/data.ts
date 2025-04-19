@@ -6,6 +6,13 @@ import {
   IoMdTrendingUp,
 } from "react-icons/io";
 import { Hobbies, Navigation, Projects, SocialLinks } from "../types";
+import quioscoImg from "../assets/quiosco.png";
+import uptask from "../assets/uptask.png";
+import drinks from "../assets/drinks.png";
+import vet from "../assets/vet.png";
+import crypto from "../assets/crypto.png";
+import filmaniatics from "../assets/filmaniatics.png";
+import walkingPet from "../assets/walkingpet.png";
 
 export const navigation: Navigation[] = [
   {
@@ -68,7 +75,7 @@ export const hobbies: Hobbies[] = [
 
 export const projects: Projects[] = [
   {
-    imgPath: "./src/assets/projects/quiosco.png",
+    imgPath: quioscoImg,
     title: "Quiosco App",
     description:
       "Web application that allows users to create and manage product orders with ease. Customers can browse and add products to their order. Technologies used: Next.js, typescript, tailwindcss, Prisma, MySql, and more.",
@@ -76,51 +83,51 @@ export const projects: Projects[] = [
     demoLink: "https://quiosco-next-plum-three.vercel.app/",
   },
   {
-    imgPath: "./src/assets/about.png",
+    imgPath: uptask,
     title: "Uptask",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    ghLink: "https://github.com/",
-    demoLink: "https://google.com/",
+      "Application where a registered user can create projects dashboards for manage their tasks and invite other users to collaborate. Technologies used: React, typescript, tailwindcss, MongoDB, Express, Mailtrap, zod and more.",
+    ghLink: "https://github.com/Dravernuss/uptask-frontend",
+    demoLink: "https://uptask-frontend-lime.vercel.app/",
   },
   {
-    imgPath: "./src/assets/about.png",
+    imgPath: drinks,
     title: "Drinks Recipes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    ghLink: "https://github.com/",
-    demoLink: "https://google.com/",
+      "This project lets users effortlessly search for drink recipes by name or ingredient. Users can also mark their favorite drinks for quick access on a dedicated favorites page. Built with Zod, Zustand, Headless UI, Tailwind CSS.",
+    ghLink: "https://github.com/Dravernuss/bebidas-react-typecript",
+    demoLink: "https://drinks-recipe-fav.netlify.app/",
   },
   {
-    imgPath: "./src/assets/about.png",
-    title: "Pacients Tracker",
+    imgPath: vet,
+    title: "Vet Pacients Tracker",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    ghLink: "https://github.com/",
-    demoLink: "https://google.com/",
+      "This application allows users to manage pets and track their symptoms. Users can add detailed information about the pet and its owner, including a recovery date. Technologies used: React, typescript, tailwindcss, Zustand",
+    ghLink: "https://github.com/Dravernuss/patients-zustand",
+    demoLink: "https://pacients-react-zustand.netlify.app/",
   },
   {
-    imgPath: "./src/assets/about.png",
+    imgPath: crypto,
     title: "Crypto Tracker",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    ghLink: "https://github.com/",
-    demoLink: "https://google.com/",
+      "Simple application that allows users to search for cryptocurrencies and view their prices. The project was developed using open API cryptocompare, react with typescript, tailwindcss, axios, Zod and Zustand.",
+    ghLink: "https://github.com/Dravernuss/criptosearch-typescrypt",
+    demoLink: "https://crypto-search-typescript.netlify.app/",
   },
   {
-    imgPath: "./src/assets/about.png",
+    imgPath: filmaniatics,
     title: "Filmaniatics",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    ghLink: "https://github.com/",
-    demoLink: "https://google.com/",
+      " A web app where users can create a list of movies they’ve watched to keep track, discover new movies, comment, and mark favorites. Created with react, axios, cloudinary, sass, redux, materialUi and more.",
+    ghLink: "https://github.com/Dravernuss/filmaniatics-react",
+    demoLink: "https://filmaniatics.netlify.app/",
   },
   {
-    imgPath: "./src/assets/about.png",
+    imgPath: walkingPet,
     title: "Walking Pet",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    ghLink: "https://github.com/",
-    demoLink: "https://google.com/",
+      "A web app that allows users to find dog walkers in their area, rate them, and share their experiences. Users can also register as walkers to earn extra income.",
+    ghLink: "https://github.com/Dravernuss/walking-pet-react",
+    demoLink: "https://walkingpet.netlify.app/",
   },
 ];
