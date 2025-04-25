@@ -1,7 +1,43 @@
 {
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "resume": "Resume",
+        "contact": "Contact"
+    },
+    "foot":{
+        "developedby": "Developed by Esteban Rodas"
+    },
     "home": {
         "greeting": "Hi There!",
         "iam": "I'M",
-        "name": "ESTEBAN RODAS"
+        "name": "ESTEBAN RODAS",
+        "typewriter": [
+            "Software Engineer",
+            "FullStack Developer",
+            "MERN Stack Specialist",
+            "API Integrator",
+            "UI/UX Enthusiast",
+            "Problem Solver",
+            "Agile Team Player"
+        ],
+        "home2": {
+            "letme": "LET ME",
+            "introduce": "INTRODUCE",
+            "myself": "MYSELF",
+            "description1": "I’m a curious and committed FullStack Developer who loves turning ideas into functional, efficient, and elegant code.",
+            "description2": "I’ve worked with technologies like",
+            "span1": "React, Node.js, Go, Phyton and PHP.",
+            "description3": "My main focus is creating",
+            "span2": "impactful, user-friendly products",
+            "with": "with",
+            "span3": "clean code and smart architecture.",
+            "description4": "I'm always excited to explore new technologies",
+            "findme": "FIND ME ON",
+            "feelfree": "Feel free to",
+            "connect": "connect",
+            "withme": "with me"
+        }
     }
 }

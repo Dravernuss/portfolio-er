@@ -9,10 +9,13 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { navigation } from "../utils/data";
 import ThemeIcon from "./ThemeIcon";
 import LanguageSwitcher from "./LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 
 export default function NavBar() {
   const location = useLocation();
   const [navColor, setNavColor] = useState(false);
+  const { t } = useTranslation();
+
   useEffect(() => {
     const handleScroll = () => {
       setNavColor(window.scrollY >= 20);
@@ -64,7 +67,7 @@ export default function NavBar() {
                         d={item.d}
                       />
                     </svg>
-                    {item.name}
+                    {t(item.name)}
                   </Link>
                 ))}
               </div>
@@ -119,7 +122,7 @@ export default function NavBar() {
                       d={item.d}
                     />
                   </svg>
-                  {item.name}
+                  {t(item.name)}
                 </DisclosureButton>
               ))}
             </div>

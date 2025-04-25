@@ -1,7 +1,43 @@
 {
+    "nav": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "resume": "Currículum",
+        "contact": "Contacto"
+    },
+    "foot":{
+        "developedby": "Desarrollado por Esteban Rodas"
+    },
     "home": {
         "greeting": "Hola!",
         "iam": "Soy",
-        "name": "ESTEBAN RODAS"
+        "name": "ESTEBAN RODAS",
+        "typewriter": [
+            "Ingeniero de Software",
+            "Desarrollador FullStack",
+            "Especialista en MERN Stack",
+            "Integrador de APIs",
+            "Apasionado por UI/UX",
+            "Solucionador de Problemas",
+            "Colaborador Ágil"
+        ],
+        "home2": {
+            "letme": "DÉJAME",
+            "introduce": "PRESENTARME",
+            "myself": "",
+            "description1": "Soy un desarrollador FullStack curioso y comprometido que disfruta convertir ideas en código funcional, eficiente y elegante.",
+            "description2": "He trabajado con tecnologías como",
+            "span1": "React, Node.js, Go, Phyton and PHP.",
+            "description3": "Mi enfoque principal es",
+            "span2": "crear productos impactantes y fáciles de usar,",
+            "with": "con",
+            "span3": "código limpio y una arquitectura inteligente.",
+            "description4": "Siempre me entusiasma explorar nuevas tecnologías.",
+            "findme": "ENCUÉNTRAME EN",
+            "feelfree": "No dudes en",
+            "connect": "conectarte",
+            "withme": "conmigo"
+        }
     }
 }
