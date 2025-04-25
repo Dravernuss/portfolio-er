@@ -8,6 +8,7 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { navigation } from "../utils/data";
 import ThemeIcon from "./ThemeIcon";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function NavBar() {
   const location = useLocation();
@@ -39,7 +40,7 @@ export default function NavBar() {
                   </h1>
                 </Link>
               </div>
-              <div className="hidden md:flex space-x-6">
+              <div className="hidden md:flex">
                 {navigation.map((item) => (
                   <Link
                     key={item.name}
@@ -66,10 +67,15 @@ export default function NavBar() {
                     {item.name}
                   </Link>
                 ))}
-                <ThemeIcon navColor={navColor} />
               </div>
+              <div className="hidden md:flex gap-4">
+                <LanguageSwitcher />
+                <ThemeIcon />
+              </div>
+
               <div className="md:hidden flex items-center gap-4">
-                <ThemeIcon navColor={navColor} />
+                <LanguageSwitcher />
+                <ThemeIcon />
                 <DisclosureButton
                   className={`p-2 rounded-md ${
                     navColor ? "bg-white dark:bg-gray-900" : "bg-transparent"
