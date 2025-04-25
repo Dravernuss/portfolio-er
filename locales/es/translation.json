@@ -39,5 +39,31 @@
             "connect": "conectarte",
             "withme": "conmigo"
         }
+    },
+    "aboutme": {
+        "knowwho": "Acerca de",
+        "iam": "mí",
+        "aboutcard": {
+            "hi": "Hola a todos, soy",
+            "span1": "Esteban Rodas",
+            "from": "de",
+            "span2": "Lima, Perú.",
+            "description1": "Actualmente trabajo como Ingeniero de Software en Redbus.",
+            "description2": "Tengo un título en Ingeniería Mecatrónica y me especializo en el desarrollo Full Stack usando tecnologías modernas.",
+            "description3": "Más allá del código, realmente disfruto:",
+            "hobbies": {
+                "play": "Jugar videojuegos",
+                "read": "Leer libros",
+                "travel": "Viajar y descubrir nuevos lugares",
+                "music": "Escuchar música",
+                "learn": "Aprender sobre nuevas tecnologías"
+            },
+            "phrase": "Software es una gran combinación entre arte e ingeniería.",
+            "author": "Bill Gates"
+        },
+        "professional": "Habilidades",
+        "skillset": "Profesionales",
+        "tools": "Herramientas",
+        "iuse": "que uso"
     }
 }

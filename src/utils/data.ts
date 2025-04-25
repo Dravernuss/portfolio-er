@@ -52,23 +52,23 @@ export const socialLink: SocialLinks[] = [
 
 export const hobbies: Hobbies[] = [
   {
-    activity: "Playing Games",
+    activity: "aboutme.aboutcard.hobbies.play",
     icon: IoLogoGameControllerB,
   },
   {
-    activity: "Reading books",
+    activity: "aboutme.aboutcard.hobbies.read",
     icon: FaBookReader,
   },
   {
-    activity: "Travelling and discovering new places",
+    activity: "aboutme.aboutcard.hobbies.travel",
     icon: IoIosAirplane,
   },
   {
-    activity: "Listening to music",
+    activity: "aboutme.aboutcard.hobbies.music",
     icon: FaHeadphones,
   },
   {
-    activity: "Learning about new technologies",
+    activity: "aboutme.aboutcard.hobbies.learn",
     icon: IoMdTrendingUp,
   },
 ];

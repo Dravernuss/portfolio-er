@@ -39,5 +39,31 @@
             "connect": "connect",
             "withme": "with me"
         }
+    },
+    "aboutme": {
+        "knowwho": "Know Who",
+        "iam": "I'M",
+        "aboutcard": {
+            "hi": "Hi Everyone, I am",
+            "span1": "Esteban Rodas",
+            "from": "from",
+            "span2": "Lima, Perú.",
+            "description1": "I am currently working as a Software Engineer at Redbus.",
+            "description2": "I hold a Bachelor's degree in Mechatronics Engineering and and I specialize in Full Stack Development using modern technologies.",
+            "description3": "Beyond coding, I truly enjoy:",
+            "hobbies": {
+                "play": "Playing Games",
+                "read": "Reading books",
+                "travel": "Travelling and discovering new places",
+                "music": "Listening to music",
+                "learn": "Learning about new technologies"
+            },
+            "phrase": "Software is a great combination between artistry and engineering.",
+            "author": "Bill Gates"
+        },
+        "professional": "Professional",
+        "skillset": "Skillset",
+        "tools": "Tools",
+        "iuse": "I use"
     }
 }

@@ -1,27 +1,29 @@
 import { hobbies } from "../../utils/data";
+import { useTranslation } from "react-i18next";
 import Hobbie from "./Hobbie";
 
 export default function AboutCard() {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-md border border-gray-200 dark:border-gray-700">
       <blockquote className="text-justify text-gray-800 dark:text-gray-200">
         <p className="mb-4 text-3xs">
-          Hi Everyone, I am{" "}
+          {t("aboutme.aboutcard.hi")}{" "}
           <span className="text-indigo-600 dark:text-indigo-400 font-semibold">
-            Esteban Rodas
+            {t("aboutme.aboutcard.span1")}
           </span>{" "}
-          from{" "}
+          {t("aboutme.aboutcard.from")}{" "}
           <span className="text-indigo-600 dark:text-indigo-400 font-semibold">
-            Lima, Perú.
+            {t("aboutme.aboutcard.span2")}
           </span>
           <br />
-          I am currently working as a Software Engineer at Redbus.
+          {t("aboutme.aboutcard.description1")}
           <br />
-          I hold a Bachelor’s degree in Mechatronics Engineering and and I
-          specialize in Full Stack Development using modern technologies.
+          {t("aboutme.aboutcard.description2")}
           <br />
           <br />
-          Beyond coding, I truly enjoy:
+          {t("aboutme.aboutcard.description3")}
         </p>
         <ul className="list-none space-y-2 mb-4 ml-7">
           {hobbies.map((hobbie) => (
@@ -29,10 +31,10 @@ export default function AboutCard() {
           ))}
         </ul>
         <p className="text-indigo-600 dark:text-indigo-400 italic mb-2 text-center">
-          "Software is a great combination between artistry and engineering."
+          "{t("aboutme.aboutcard.phrase")}"
         </p>
         <footer className="text-sm text-gray-500 dark:text-gray-400 text-center">
-          — Bill Gates
+          — {t("aboutme.aboutcard.author")}
         </footer>
       </blockquote>
     </div>
