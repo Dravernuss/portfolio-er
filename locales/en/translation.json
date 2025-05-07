@@ -65,5 +65,26 @@
         "skillset": "Skillset",
         "tools": "Tools",
         "iuse": "I use"
+    },
+    "projects": {
+        "my": "My",
+        "projects": "Projects",
+        "description": "Here are some of the projects I have worked on.",
+        "projectcard": {
+            "title1": "Quiosco App",
+            "description1": "Web application that allows users to create and manage product orders with ease. Customers can browse and add products to their order. Technologies used: Next.js, typescript, tailwindcss, Prisma, MySql, and more.",
+            "title2": "Uptask",
+            "description2": "Application where a registered user can create projects dashboards for manage their tasks and invite other users to collaborate. Technologies used: React, typescript, tailwindcss, MongoDB, Express, Mailtrap, zod and more.",
+            "title3": "Drinks Recipes",
+            "description3": "This project lets users effortlessly search for drink recipes by name or ingredient. Users can also mark their favorite drinks for quick access on a dedicated favorites page. Built with Zod, Zustand, Headless UI, Tailwind CSS.",
+            "title4": "Vet Pacients Tracker",
+            "description4": "This application allows users to manage pets and track their symptoms. Users can add detailed information about the pet and its owner, including a recovery date. Technologies used: React, typescript, tailwindcss, Zustand.",
+            "title5": "Crypto Tracker",
+            "description5": "Simple application that allows users to search for cryptocurrencies and view their prices. The project was developed using open API cryptocompare, react with typescript, tailwindcss, axios, Zod and Zustand.",
+            "title6": "Filmaniatics",
+            "description6": "A web app where users can create a list of movies they’ve watched to keep track, discover new movies, comment, and mark favorites. Created with react, axios, cloudinary, sass, redux, materialUi and more.",
+            "title7": "Walking Pet",
+            "description7": "A web app that allows users to find dog walkers in their area, rate them, and share their experiences. Users can also register as walkers to earn extra income."
+        }
     }
 }

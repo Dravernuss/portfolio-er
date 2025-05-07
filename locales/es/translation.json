@@ -65,5 +65,26 @@
         "skillset": "Profesionales",
         "tools": "Herramientas",
         "iuse": "que uso"
+    },
+    "projects": {
+        "my": "Mis",
+        "projects": "Proyectos",
+        "description": "Algunos de los proyectos que he realizado.",
+        "projectcard": {
+            "title1": "Aplicación de Quiosco",
+            "description1": "Aplicación web que permite a los usuarios crear y gestionar pedidos de productos fácilmente. Los clientes pueden navegar y añadir productos a su pedido. Tecnologías utilizadas: Next.js, TypeScript, Tailwind CSS, Prisma, MySQL y más.",
+            "title2": "Uptask",
+            "description2": "Aplicación donde un usuario registrado puede crear paneles de proyectos para gestionar sus tareas e invitar a otros usuarios a colaborar. Tecnologías utilizadas: React, TypeScript, Tailwind CSS, MongoDB, Express, Mailtrap, Zod y más.",
+            "title3": "Recetas de Bebidas",
+            "description3": "Este proyecto permite a los usuarios buscar recetas de bebidas fácilmente por nombre o ingrediente. También pueden marcar sus bebidas favoritas para acceder rápidamente desde una página dedicada. Construido con Zod, Zustand, Headless UI, Tailwind CSS.",
+            "title4": "Seguimiento de Pacientes Veterinarios",
+            "description4": "Esta aplicación permite a los usuarios gestionar mascotas y hacer seguimiento de sus síntomas. Pueden agregar información detallada sobre la mascota y su dueño, incluyendo una fecha estimada de recuperación. Tecnologías utilizadas: React, TypeScript, Tailwind CSS, Zustand.",
+            "title5": "Rastreador de Criptomonedas",
+            "description5": "Aplicación sencilla que permite a los usuarios buscar criptomonedas y ver sus precios. El proyecto fue desarrollado usando la API pública de CryptoCompare, React con TypeScript, Tailwind CSS, Axios, Zod y Zustand.",
+            "title6": "Filmaniatics",
+            "description6": "Una aplicación web donde los usuarios pueden crear una lista de películas que han visto para llevar un registro, descubrir nuevas películas, comentar y marcar favoritas. Creado con React, Axios, Cloudinary, Sass, Redux, Material UI y más.",
+            "title7": "Walking Pet",
+            "description7": "Una aplicación web que permite a los usuarios encontrar paseadores de perros en su área, calificarlos y compartir sus experiencias. Los usuarios también pueden registrarse como paseadores para generar ingresos extra."
+        }
     }
 }

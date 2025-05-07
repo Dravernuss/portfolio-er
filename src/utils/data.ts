@@ -76,57 +76,50 @@ export const hobbies: Hobbies[] = [
 export const projects: Projects[] = [
   {
     imgPath: quioscoImg,
-    title: "Quiosco App",
-    description:
-      "Web application that allows users to create and manage product orders with ease. Customers can browse and add products to their order. Technologies used: Next.js, typescript, tailwindcss, Prisma, MySql, and more.",
+    title: "projects.projectcard.title1",
+    description: "projects.projectcard.description1",
     ghLink: "https://github.com/Dravernuss/quiosco_next",
     demoLink: "https://quiosco-next-plum-three.vercel.app/",
   },
   {
     imgPath: uptask,
-    title: "Uptask",
-    description:
-      "Application where a registered user can create projects dashboards for manage their tasks and invite other users to collaborate. Technologies used: React, typescript, tailwindcss, MongoDB, Express, Mailtrap, zod and more.",
+    title: "projects.projectcard.title2",
+    description: "projects.projectcard.description2",
     ghLink: "https://github.com/Dravernuss/uptask-frontend",
     demoLink: "https://uptask-frontend-lime.vercel.app/",
   },
   {
     imgPath: drinks,
-    title: "Drinks Recipes",
-    description:
-      "This project lets users effortlessly search for drink recipes by name or ingredient. Users can also mark their favorite drinks for quick access on a dedicated favorites page. Built with Zod, Zustand, Headless UI, Tailwind CSS.",
+    title: "projects.projectcard.title3",
+    description: "projects.projectcard.description3",
     ghLink: "https://github.com/Dravernuss/bebidas-react-typecript",
     demoLink: "https://drinks-recipe-fav.netlify.app/",
   },
   {
     imgPath: vet,
-    title: "Vet Pacients Tracker",
-    description:
-      "This application allows users to manage pets and track their symptoms. Users can add detailed information about the pet and its owner, including a recovery date. Technologies used: React, typescript, tailwindcss, Zustand",
+    title: "projects.projectcard.title4",
+    description: "projects.projectcard.description4",
     ghLink: "https://github.com/Dravernuss/patients-zustand",
     demoLink: "https://pacients-react-zustand.netlify.app/",
   },
   {
     imgPath: crypto,
-    title: "Crypto Tracker",
-    description:
-      "Simple application that allows users to search for cryptocurrencies and view their prices. The project was developed using open API cryptocompare, react with typescript, tailwindcss, axios, Zod and Zustand.",
+    title: "projects.projectcard.title5",
+    description: "projects.projectcard.description5",
     ghLink: "https://github.com/Dravernuss/criptosearch-typescrypt",
     demoLink: "https://crypto-search-typescript.netlify.app/",
   },
   {
     imgPath: filmaniatics,
-    title: "Filmaniatics",
-    description:
-      " A web app where users can create a list of movies they’ve watched to keep track, discover new movies, comment, and mark favorites. Created with react, axios, cloudinary, sass, redux, materialUi and more.",
+    title: "projects.projectcard.title6",
+    description: "projects.projectcard.description6",
     ghLink: "https://github.com/Dravernuss/filmaniatics-react",
     demoLink: "https://filmaniatics.netlify.app/",
   },
   {
     imgPath: walkingPet,
-    title: "Walking Pet",
-    description:
-      "A web app that allows users to find dog walkers in their area, rate them, and share their experiences. Users can also register as walkers to earn extra income.",
+    title: "projects.projectcard.title7",
+    description: "projects.projectcard.description7",
     ghLink: "https://github.com/Dravernuss/walking-pet-react",
     demoLink: "https://walkingpet.netlify.app/",
   },
