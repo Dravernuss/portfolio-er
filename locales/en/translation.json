@@ -89,5 +89,36 @@
     },
     "resume": {
         "download": "Download CV"
+    },
+    "contact": {
+        "getin": "Get in",
+        "touch": "Touch",
+        "location": "Location",
+        "locationvalue": "Lima, Peru",
+        "email": "Email",
+        "emailvalue": "esteban16.rodas@gmail.com",
+        "phone": "Phone",
+        "phonevalue": "(+51) 945 151 191",
+        "hi": "Feel free to say hi!",
+        "hivalue": "I'd love to hear from you.",
+        "form": {
+            "name": "Your Name",
+            "namereq": "Name is required",
+            "namemin": "Minimum 3 characters",
+            "email": "Your Email",
+            "emailreq": "Email is required",
+            "invalidemail": "Invalid email address",
+            "phone": "Your Phone",
+            "phonereq": "Phone number is required",
+            "invalidphone": "Enter at least 9 digits, numbers only",
+            "message": "Message",
+            "messagereq": "Message is required",
+            "messagemin": "Minimum 10 characters",
+            "send": "SEND MESSAGE"
+        },
+        "submit": {
+            "success": "Mail send successfully!! 🚀",
+            "error": "An error has occurred. Try again"
+        }
     }
 }

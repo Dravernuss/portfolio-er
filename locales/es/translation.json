@@ -89,5 +89,36 @@
     },
     "resume": {
         "download": "Descargar CV"
+    },
+    "contact": {
+        "getin": "Ponte en",
+        "touch": "Contacto",
+        "location": "Ubicación",
+        "locationvalue": "Lima, Perú",
+        "email": "Correo",
+        "emailvalue": "esteban16.rodas@gmail.com",
+        "phone": "Teléfono",
+        "phonevalue": "(+51) 945 151 191",
+        "hi": "¡No dudes en saludarme!",
+        "hivalue": "Me encantaría saber de usted.",
+        "form": {
+            "name": "Tu Nombre",
+            "namereq": "Nombre es requerido",
+            "namemin": "Mínimo 3 carácteres",
+            "email": "Tu Correo",
+            "emailreq": "Correo es requerido",
+            "invalidemail": "Dirección de correo inválida",
+            "phone": "Tu Teléfono",
+            "phonereq": "Número de teléfono es requerido",
+            "invalidphone": "Ingrese al menos 9 dígitos, solo números",
+            "message": "Mensaje",
+            "messagereq": "El mensaje es requerido",
+            "messagemin": "Mínimo 10 carácteres",
+            "send": "ENVIAR MENSAJE"
+        },
+        "submit": {
+            "success": "¡Envío de correo exitoso! 🚀",
+            "error": "Se ha producido un error. Inténtalo de nuevo."
+        }
     }
 }
