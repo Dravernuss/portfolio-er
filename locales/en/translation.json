@@ -86,5 +86,8 @@
             "title7": "Walking Pet",
             "description7": "A web app that allows users to find dog walkers in their area, rate them, and share their experiences. Users can also register as walkers to earn extra income."
         }
+    },
+    "resume": {
+        "download": "Download CV"
     }
 }

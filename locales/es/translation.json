@@ -86,5 +86,8 @@
             "title7": "Walking Pet",
             "description7": "Una aplicación web que permite a los usuarios encontrar paseadores de perros en su área, calificarlos y compartir sus experiencias. Los usuarios también pueden registrarse como paseadores para generar ingresos extra."
         }
+    },
+    "resume": {
+        "download": "Descargar CV"
     }
 }
