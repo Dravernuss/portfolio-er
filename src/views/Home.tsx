@@ -1,8 +1,11 @@
 import homeLogo from "../assets/homelogo.png";
 import TypeWriter from "../components/home/TypeWriter";
 import Home2 from "./Home2";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t } = useTranslation();
+
   return (
     <section
       id="home"
@@ -12,7 +15,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 md:px-10 md:py-20 gap-8 items-center">
           <div className="text-center md:text-left p-10">
             <h1 className="text-2xl md:text-4xl font-medium text-gray-900 dark:text-white">
-              Hi There!{" "}
+              {t("home.greeting")}{" "}
               <span
                 role="img"
                 aria-labelledby="wave"
@@ -21,10 +24,10 @@ export default function Home() {
                 👋🏻
               </span>
             </h1>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-indigo-600 dark:text-indigo-400 mt-4">
-              I'M{" "}
+            <h1 className="text-3xl md:text-4xl font-black text-indigo-600 dark:text-indigo-400 mt-4">
+            {t("home.iam")}{" "}
               <span className="text-indigo-800 dark:text-indigo-300">
-                ESTEBAN RODAS
+              {t("home.name")}
               </span>
             </h1>
             <div className="mt-14">

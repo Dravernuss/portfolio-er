@@ -1,0 +1,124 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "resume": "Currículum",
+        "contact": "Contacto"
+    },
+    "foot":{
+        "developedby": "Desarrollado por Esteban Rodas"
+    },
+    "home": {
+        "greeting": "Hola!",
+        "iam": "Soy",
+        "name": "ESTEBAN RODAS",
+        "typewriter": [
+            "Ingeniero de Software",
+            "Desarrollador FullStack",
+            "Especialista en MERN Stack",
+            "Integrador de APIs",
+            "Apasionado por UI/UX",
+            "Solucionador de Problemas",
+            "Colaborador Ágil"
+        ],
+        "home2": {
+            "letme": "DÉJAME",
+            "introduce": "PRESENTARME",
+            "myself": "",
+            "description1": "Soy un desarrollador FullStack curioso y comprometido que disfruta convertir ideas en código funcional, eficiente y elegante.",
+            "description2": "He trabajado con tecnologías como",
+            "span1": "React, Node.js, Go, Phyton and PHP.",
+            "description3": "Mi enfoque principal es",
+            "span2": "crear productos impactantes y fáciles de usar,",
+            "with": "con",
+            "span3": "código limpio y una arquitectura inteligente.",
+            "description4": "Siempre me entusiasma explorar nuevas tecnologías.",
+            "findme": "ENCUÉNTRAME EN",
+            "feelfree": "No dudes en",
+            "connect": "conectarte",
+            "withme": "conmigo"
+        }
+    },
+    "aboutme": {
+        "knowwho": "Acerca de",
+        "iam": "mí",
+        "aboutcard": {
+            "hi": "Hola a todos, soy",
+            "span1": "Esteban Rodas",
+            "from": "de",
+            "span2": "Lima, Perú.",
+            "description1": "Actualmente trabajo como Ingeniero de Software en Redbus.",
+            "description2": "Tengo un título en Ingeniería Mecatrónica y me especializo en el desarrollo Full Stack usando tecnologías modernas.",
+            "description3": "Más allá del código, realmente disfruto:",
+            "hobbies": {
+                "play": "Jugar videojuegos",
+                "read": "Leer libros",
+                "travel": "Viajar y descubrir nuevos lugares",
+                "music": "Escuchar música",
+                "learn": "Aprender sobre nuevas tecnologías"
+            },
+            "phrase": "Software es una gran combinación entre arte e ingeniería.",
+            "author": "Bill Gates"
+        },
+        "professional": "Habilidades",
+        "skillset": "Profesionales",
+        "tools": "Herramientas",
+        "iuse": "que uso"
+    },
+    "projects": {
+        "my": "Mis",
+        "projects": "Proyectos",
+        "description": "Algunos de los proyectos que he realizado.",
+        "projectcard": {
+            "title1": "Aplicación de Quiosco",
+            "description1": "Aplicación web que permite a los usuarios crear y gestionar pedidos de productos fácilmente. Los clientes pueden navegar y añadir productos a su pedido. Tecnologías utilizadas: Next.js, TypeScript, Tailwind CSS, Prisma, MySQL y más.",
+            "title2": "Uptask",
+            "description2": "Aplicación donde un usuario registrado puede crear paneles de proyectos para gestionar sus tareas e invitar a otros usuarios a colaborar. Tecnologías utilizadas: React, TypeScript, Tailwind CSS, MongoDB, Express, Mailtrap, Zod y más.",
+            "title3": "Recetas de Bebidas",
+            "description3": "Este proyecto permite a los usuarios buscar recetas de bebidas fácilmente por nombre o ingrediente. También pueden marcar sus bebidas favoritas para acceder rápidamente desde una página dedicada. Construido con Zod, Zustand, Headless UI, Tailwind CSS.",
+            "title4": "Seguimiento de Pacientes Veterinarios",
+            "description4": "Esta aplicación permite a los usuarios gestionar mascotas y hacer seguimiento de sus síntomas. Pueden agregar información detallada sobre la mascota y su dueño, incluyendo una fecha estimada de recuperación. Tecnologías utilizadas: React, TypeScript, Tailwind CSS, Zustand.",
+            "title5": "Rastreador de Criptomonedas",
+            "description5": "Aplicación sencilla que permite a los usuarios buscar criptomonedas y ver sus precios. El proyecto fue desarrollado usando la API pública de CryptoCompare, React con TypeScript, Tailwind CSS, Axios, Zod y Zustand.",
+            "title6": "Filmaniatics",
+            "description6": "Una aplicación web donde los usuarios pueden crear una lista de películas que han visto para llevar un registro, descubrir nuevas películas, comentar y marcar favoritas. Creado con React, Axios, Cloudinary, Sass, Redux, Material UI y más.",
+            "title7": "Walking Pet",
+            "description7": "Una aplicación web que permite a los usuarios encontrar paseadores de perros en su área, calificarlos y compartir sus experiencias. Los usuarios también pueden registrarse como paseadores para generar ingresos extra."
+        }
+    },
+    "resume": {
+        "download": "Descargar CV"
+    },
+    "contact": {
+        "getin": "Ponte en",
+        "touch": "Contacto",
+        "location": "Ubicación",
+        "locationvalue": "Lima, Perú",
+        "email": "Correo",
+        "emailvalue": "esteban16.rodas@gmail.com",
+        "phone": "Teléfono",
+        "phonevalue": "(+51) 945 151 191",
+        "hi": "¡No dudes en saludarme!",
+        "hivalue": "Me encantaría saber de usted.",
+        "form": {
+            "name": "Tu Nombre",
+            "namereq": "Nombre es requerido",
+            "namemin": "Mínimo 3 carácteres",
+            "email": "Tu Correo",
+            "emailreq": "Correo es requerido",
+            "invalidemail": "Dirección de correo inválida",
+            "phone": "Tu Teléfono",
+            "phonereq": "Número de teléfono es requerido",
+            "invalidphone": "Ingrese al menos 9 dígitos, solo números",
+            "message": "Mensaje",
+            "messagereq": "El mensaje es requerido",
+            "messagemin": "Mínimo 10 carácteres",
+            "send": "ENVIAR MENSAJE"
+        },
+        "submit": {
+            "success": "¡Envío de correo exitoso! 🚀",
+            "error": "Se ha producido un error. Inténtalo de nuevo."
+        }
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "resume": "Resume",
+        "contact": "Contact"
+    },
+    "foot":{
+        "developedby": "Developed by Esteban Rodas"
+    },
+    "home": {
+        "greeting": "Hi There!",
+        "iam": "I'M",
+        "name": "ESTEBAN RODAS",
+        "typewriter": [
+            "Software Engineer",
+            "FullStack Developer",
+            "MERN Stack Specialist",
+            "API Integrator",
+            "UI/UX Enthusiast",
+            "Problem Solver",
+            "Agile Team Player"
+        ],
+        "home2": {
+            "letme": "LET ME",
+            "introduce": "INTRODUCE",
+            "myself": "MYSELF",
+            "description1": "I’m a curious and committed FullStack Developer who loves turning ideas into functional, efficient, and elegant code.",
+            "description2": "I’ve worked with technologies like",
+            "span1": "React, Node.js, Go, Phyton and PHP.",
+            "description3": "My main focus is creating",
+            "span2": "impactful, user-friendly products",
+            "with": "with",
+            "span3": "clean code and smart architecture.",
+            "description4": "I'm always excited to explore new technologies",
+            "findme": "FIND ME ON",
+            "feelfree": "Feel free to",
+            "connect": "connect",
+            "withme": "with me"
+        }
+    },
+    "aboutme": {
+        "knowwho": "Know Who",
+        "iam": "I'M",
+        "aboutcard": {
+            "hi": "Hi Everyone, I am",
+            "span1": "Esteban Rodas",
+            "from": "from",
+            "span2": "Lima, Perú.",
+            "description1": "I am currently working as a Software Engineer at Redbus.",
+            "description2": "I hold a Bachelor's degree in Mechatronics Engineering and and I specialize in Full Stack Development using modern technologies.",
+            "description3": "Beyond coding, I truly enjoy:",
+            "hobbies": {
+                "play": "Playing Games",
+                "read": "Reading books",
+                "travel": "Travelling and discovering new places",
+                "music": "Listening to music",
+                "learn": "Learning about new technologies"
+            },
+            "phrase": "Software is a great combination between artistry and engineering.",
+            "author": "Bill Gates"
+        },
+        "professional": "Professional",
+        "skillset": "Skillset",
+        "tools": "Tools",
+        "iuse": "I use"
+    },
+    "projects": {
+        "my": "My",
+        "projects": "Projects",
+        "description": "Here are some of the projects I have worked on.",
+        "projectcard": {
+            "title1": "Quiosco App",
+            "description1": "Web application that allows users to create and manage product orders with ease. Customers can browse and add products to their order. Technologies used: Next.js, typescript, tailwindcss, Prisma, MySql, and more.",
+            "title2": "Uptask",
+            "description2": "Application where a registered user can create projects dashboards for manage their tasks and invite other users to collaborate. Technologies used: React, typescript, tailwindcss, MongoDB, Express, Mailtrap, zod and more.",
+            "title3": "Drinks Recipes",
+            "description3": "This project lets users effortlessly search for drink recipes by name or ingredient. Users can also mark their favorite drinks for quick access on a dedicated favorites page. Built with Zod, Zustand, Headless UI, Tailwind CSS.",
+            "title4": "Vet Pacients Tracker",
+            "description4": "This application allows users to manage pets and track their symptoms. Users can add detailed information about the pet and its owner, including a recovery date. Technologies used: React, typescript, tailwindcss, Zustand.",
+            "title5": "Crypto Tracker",
+            "description5": "Simple application that allows users to search for cryptocurrencies and view their prices. The project was developed using open API cryptocompare, react with typescript, tailwindcss, axios, Zod and Zustand.",
+            "title6": "Filmaniatics",
+            "description6": "A web app where users can create a list of movies they’ve watched to keep track, discover new movies, comment, and mark favorites. Created with react, axios, cloudinary, sass, redux, materialUi and more.",
+            "title7": "Walking Pet",
+            "description7": "A web app that allows users to find dog walkers in their area, rate them, and share their experiences. Users can also register as walkers to earn extra income."
+        }
+    },
+    "resume": {
+        "download": "Download CV"
+    },
+    "contact": {
+        "getin": "Get in",
+        "touch": "Touch",
+        "location": "Location",
+        "locationvalue": "Lima, Peru",
+        "email": "Email",
+        "emailvalue": "esteban16.rodas@gmail.com",
+        "phone": "Phone",
+        "phonevalue": "(+51) 945 151 191",
+        "hi": "Feel free to say hi!",
+        "hivalue": "I'd love to hear from you.",
+        "form": {
+            "name": "Your Name",
+            "namereq": "Name is required",
+            "namemin": "Minimum 3 characters",
+            "email": "Your Email",
+            "emailreq": "Email is required",
+            "invalidemail": "Invalid email address",
+            "phone": "Your Phone",
+            "phonereq": "Phone number is required",
+            "invalidphone": "Enter at least 9 digits, numbers only",
+            "message": "Message",
+            "messagereq": "Message is required",
+            "messagemin": "Minimum 10 characters",
+            "send": "SEND MESSAGE"
+        },
+        "submit": {
+            "success": "Mail send successfully!! 🚀",
+            "error": "An error has occurred. Try again"
+        }
+    }
+}

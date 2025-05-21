@@ -1,23 +1,17 @@
 import { useEffect, useState } from "react";
-
-const words = [
-  "Software Engineer",
-  "FullStack Developer",
-  "MERN Stack Specialist",
-  "API Integrator",
-  "UI/UX Enthusiast",
-  "Problem Solver",
-  "Agile Team Player",
-];
+import { useTranslation } from "react-i18next";
 
 export default function TypeWriter() {
+  const { t } = useTranslation();
+  const words: string[] = t("home.typewriter", { returnObjects: true }) as string[];
+
   const [text, setText] = useState("");
   const [wordIndex, setWordIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
-    const currentWord = words[wordIndex];
+    const currentWord = words[wordIndex] || "";
     const timeout = setTimeout(
       () => {
         if (deleting) {

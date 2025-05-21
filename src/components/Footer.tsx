@@ -1,7 +1,9 @@
 import { socialLink } from "../utils/data";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
   const year = new Date().getFullYear();
+  const { t } = useTranslation();
 
   return (
     <footer className="w-full bg-white dark:bg-gray-900 text-white py-1.5">
@@ -9,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center ">
           <div className="flex justify-center md:justify-start items-center">
             <h3 className="text-xs font-semibold text-black dark:text-white">
-              Developed by Esteban Rodas
+              {t("foot.developedby")}
             </h3>
           </div>
 
